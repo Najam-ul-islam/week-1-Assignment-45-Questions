@@ -9,3 +9,4 @@ function show_magicians(magician) {
     }
 }
 show_magicians(magician_name);
+console.log(magician_name);

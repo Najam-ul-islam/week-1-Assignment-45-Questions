@@ -1,13 +1,14 @@
+"use strict";
 //  Muhammad Najam Ul Islam  13/02/2023
-var fav_number = 99; // My favorite number
-console.log("My favorite number is ".concat(fav_number)); // Printing favorite number
+let fav_number = 99; // My favorite number
+console.log(`My favorite number is ${fav_number}`); // Printing favorite number
 //  Muhammad Najam Ul Islam  13/02/2023
 // Defining variable and its datatype
-var add = fav_number + 8;
-var sub = fav_number - 8; // subtract 8 from fav_number
-var mul = fav_number * 8;
-var div = fav_number / 8;
-console.log("Addition =\t".concat(add));
-console.log("Subtraction =\t".concat(sub));
-console.log("Multiplication = \t".concat(mul));
-console.log("Division = \t".concat(div));
+let add = fav_number + 8;
+let sub = fav_number - 8; // subtract 8 from fav_number
+let mul = fav_number * 8;
+let div = fav_number / 8;
+console.log(`Addition =\t${add}`);
+console.log(`Subtraction =\t${sub}`);
+console.log(`Multiplication = \t${mul}`);
+console.log(`Division = \t${div}`);
