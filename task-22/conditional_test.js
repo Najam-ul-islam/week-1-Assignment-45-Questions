@@ -1,3 +1,4 @@
+"use strict";
 // 23.	Conditional Tests: Write a series of conditional tests. 
 // Print a statement describing each test and your prediction for the results of each test. 
 // Your code should look something like this:
@@ -6,10 +7,10 @@
 // console.log(car == 'subaru')
 // • Look closely at your results, and make sure you understand why each line evaluates to True or False.
 // • Create at least 10 tests. Have at least 5 tests evaluate to True and another 5 tests evaluate to False.
-var num1 = 5;
-var num2 = 10;
-var str1 = "hello";
-var str2 = "world!";
+let num1 = 5;
+let num2 = 10;
+let str1 = "hello";
+let str2 = "world!";
 // Test 1: Is num1 greater than num2? I predict false.
 console.log(num1 > num2);
 // Test 2: Is str1 equal to "Hello"? I predict false.
